@@ -21,21 +21,4 @@ router.get('/', (req, res) => {
   res.send(galleryItems);
 }); // END GET Route
 
-// PUT Route
-router.put('/toggle/:id', (req, res) => {
-  const photoID = Number(req.params.id);
-  //console.log(photoID);
-
-  for (const photo of galleryItems) {
-    if (photo.id === photoID) {
-      //console.log(photo);
-      photo.isClicked = true;
-      //!photo.isClicked ? true : false;
-    } else {
-      photo.isClicked = false;
-    }
-  }
-  res.sendStatus(200);
-});
-
 module.exports = router;

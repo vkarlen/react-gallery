@@ -1,16 +1,16 @@
 import './GalleryItem.css';
 import { FaHeart } from 'react-icons/fa';
 
-function GalleryItem({ photo, handleClick, handleLike }) {
+function GalleryItem({ photo, setIDClicked, handleLike, idClicked }) {
   return (
     <div className="imgBlock">
       <img
         src={photo.path}
         onClick={() => {
-          handleClick(photo.id);
+          setIDClicked(photo.id);
         }}
       />
-      {photo.isClicked ? (
+      {photo.id == idClicked ? (
         <div className="desc">
           <h3>{photo.title}</h3>
           <div>{photo.description}</div>
