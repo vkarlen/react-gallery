@@ -5,7 +5,6 @@ const galleryItems = [
     path: '/images/frida-now.jpg',
     description: 'My puppy, Frida. Still only 7 months old.',
     likes: 0,
-    isClicked: false,
   },
   {
     id: 2,
@@ -14,7 +13,6 @@ const galleryItems = [
     description:
       'The first time Frida and Ender met. Hard to believe she was ever that tiny!',
     likes: 0,
-    isClicked: false,
   },
   {
     id: 3,
@@ -22,7 +20,6 @@ const galleryItems = [
     path: '/images/ender-hiking.jpg',
     description: 'Hiking with Ender in Tettegouche State Park last fall.',
     likes: 0,
-    isClicked: false,
   },
   {
     id: 4,
@@ -30,7 +27,6 @@ const galleryItems = [
     path: '/images/ender-first.jpg',
     description: 'The first day Ender came home.',
     likes: 0,
-    isClicked: false,
   },
   {
     id: 5,
@@ -38,7 +34,6 @@ const galleryItems = [
     path: '/images/scully.jpg',
     description: 'The pretty boy of the house.',
     likes: 0,
-    isClicked: false,
   },
   {
     id: 6,
@@ -46,7 +41,6 @@ const galleryItems = [
     path: '/images/phyllis.jpg',
     description: "My office pet when I worked at Chuck & Don's.",
     likes: 0,
-    isClicked: false,
   },
   {
     id: 7,
@@ -55,7 +49,6 @@ const galleryItems = [
     description:
       'The reason I foster... Barnes the day I picked him up from transport.',
     likes: 0,
-    isClicked: false,
   },
   {
     id: 8,
@@ -64,7 +57,6 @@ const galleryItems = [
     description:
       'Barnes waiting for his adoption papers to be signed! Hes now living his best life on an apple orchard up north.',
     likes: 0,
-    isClicked: false,
   },
   {
     id: 9,
@@ -73,7 +65,6 @@ const galleryItems = [
     description:
       'Post surgery Mulder, enjoying the pain meds and a newly cancer free life.',
     likes: 0,
-    isClicked: false,
   },
   {
     id: 10,
@@ -81,7 +72,6 @@ const galleryItems = [
     path: '/images/lenny.jpg',
     description: "Probably one of the most punk rock dogs you'll ever meet.",
     likes: 0,
-    isClicked: false,
   },
   {
     id: 11,
@@ -90,7 +80,6 @@ const galleryItems = [
     description:
       "Her name means 'smile' in Spanish. We thought it was fitting.",
     likes: 0,
-    isClicked: false,
   },
   {
     id: 12,
@@ -98,7 +87,6 @@ const galleryItems = [
     path: '/images/izzy.jpg',
     description: 'Nicknamed Busy Izzy because she never stopped moving.',
     likes: 0,
-    isClicked: false,
   },
 ];
 

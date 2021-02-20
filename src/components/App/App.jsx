@@ -8,6 +8,7 @@ import GalleryList from '../GalleryList/GalleryList';
 
 function App() {
   const [photoList, setPhotoList] = useState([]);
+  const [idClicked, setIDClicked] = useState(-1);
 
   useEffect(() => {
     getPhotos();
@@ -27,20 +28,6 @@ function App() {
       });
   }; // end getPhotos
 
-  const handleClick = (photoID) => {
-    //console.log('in click', index);
-
-    axios
-      .put(`/gallery/toggle/${photoID}`)
-      .then((res) => {
-        console.log('back from put');
-        getPhotos();
-      })
-      .catch((err) => {
-        console.log('err in put', err);
-      });
-  }; // end handleClick
-
   function handleLike(photoID) {
     console.log('in like', photoID);
 
@@ -53,7 +40,15 @@ function App() {
       .catch((err) => {
         console.log('Error in likes');
       });
-  }
+  } // end handleLike
+
+  function handleClick(photoID) {
+    if (photoID === idClicked) {
+      setIDClicked(-1);
+    } else {
+      setIDClicked(photoID);
+    }
+  } // end handleClick
 
   return (
     <div className="App">
@@ -64,7 +59,7 @@ function App() {
         photoList={photoList}
         handleClick={handleClick}
         handleLike={handleLike}
-        // icon={FaHeart}
+        idClicked={idClicked}
       />
       {/* <img src="/images/frida-first.jpg"></img>; */}
     </div>

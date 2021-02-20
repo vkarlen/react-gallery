@@ -1,7 +1,7 @@
 import './GalleryItem.css';
 import { FaHeart } from 'react-icons/fa';
 
-function GalleryItem({ photo, handleClick, handleLike }) {
+function GalleryItem({ photo, handleClick, handleLike, idClicked }) {
   return (
     <div className="imgBlock">
       <img
@@ -10,7 +10,7 @@ function GalleryItem({ photo, handleClick, handleLike }) {
           handleClick(photo.id);
         }}
       />
-      {photo.isClicked ? (
+      {photo.id == idClicked ? (
         <div className="desc">
           <h3>{photo.title}</h3>
           <div>{photo.description}</div>
