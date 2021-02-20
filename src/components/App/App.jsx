@@ -43,11 +43,7 @@ function App() {
   } // end handleLike
 
   function handleClick(photoID) {
-    if (photoID === idClicked) {
-      setIDClicked(-1);
-    } else {
-      setIDClicked(photoID);
-    }
+    setIDClicked(photoID === idClicked ? -1 : photoID);
   } // end handleClick
 
   return (
