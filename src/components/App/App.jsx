@@ -1,5 +1,6 @@
 import React from 'react';
 import { useEffect, useState } from 'react';
+// import { FaHeart } from 'react-icons/fa';
 import axios from 'axios';
 import './App.css';
 
@@ -26,11 +27,11 @@ function App() {
       });
   }; // end getPhotos
 
-  const handleClick = (index) => {
-    console.log('in click', index);
+  const handleClick = (photoID) => {
+    //console.log('in click', index);
 
     axios
-      .put(`/gallery/toggle/${index}`)
+      .put(`/gallery/toggle/${photoID}`)
       .then((res) => {
         console.log('back from put');
         getPhotos();
@@ -40,12 +41,31 @@ function App() {
       });
   }; // end handleClick
 
+  function handleLike(photoID) {
+    console.log('in like', photoID);
+
+    axios
+      .put(`/gallery/like/${photoID}`)
+      .then((res) => {
+        console.log('back from like');
+        getPhotos();
+      })
+      .catch((err) => {
+        console.log('Error in likes');
+      });
+  }
+
   return (
     <div className="App">
       <header className="App-header">
         <h1 className="App-title">Gallery of My Life</h1>
       </header>
-      <GalleryList photoList={photoList} handleClick={handleClick} />
+      <GalleryList
+        photoList={photoList}
+        handleClick={handleClick}
+        handleLike={handleLike}
+        // icon={FaHeart}
+      />
       {/* <img src="/images/frida-first.jpg"></img>; */}
     </div>
   );
