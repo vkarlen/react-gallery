@@ -1,12 +1,12 @@
 img {
-  max-width: 450px;
+  max-width: 400px;
 }
 .imgBlock {
   margin: 5px;
 }
 
 #imgContainer {
+  margin: 10px 30px;
   display: flex;
   flex-flow: row wrap;
-  justify-content: center;
 }
