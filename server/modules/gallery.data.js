@@ -20,7 +20,7 @@ const galleryItems = [
     id: 3,
     title: 'Adventure Boi',
     path: '/images/ender-hiking.jpg',
-    description: 'Hiking with Ender in Tettegouche last fall.',
+    description: 'Hiking with Ender in Tettegouche State Park last fall.',
     likes: 0,
     isClicked: false,
   },
@@ -61,7 +61,8 @@ const galleryItems = [
     id: 8,
     title: 'Barnes',
     path: '/images/barn-adopt.jpg',
-    description: 'Barnes waiting for his adoption papers to be signed!',
+    description:
+      'Barnes waiting for his adoption papers to be signed! Hes now living his best life on an apple orchard up north.',
     likes: 0,
     isClicked: false,
   },
@@ -76,10 +77,9 @@ const galleryItems = [
   },
   {
     id: 10,
-    title: 'Lenny',
+    title: 'Ms. Lenny',
     path: '/images/lenny.jpg',
-    description:
-      'One of our past fosters, now named Lenny. Probably one of the most punk rock dogs to ever exist.',
+    description: "Probably one of the most punk rock dogs you'll ever meet.",
     likes: 0,
     isClicked: false,
   },
@@ -88,7 +88,7 @@ const galleryItems = [
     title: 'Sonrisa',
     path: '/images/sonrisa.jpg',
     description:
-      'Sonrisa, named for her smile. Our last foster before we got Frida.',
+      "Her name means 'smile' in Spanish. We thought it was fitting.",
     likes: 0,
     isClicked: false,
   },
