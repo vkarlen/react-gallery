@@ -40,12 +40,20 @@ function App() {
       });
   }; // end handleClick
 
+  function handleLike(photoID) {
+    console.log('in like', photoID);
+  }
+
   return (
     <div className="App">
       <header className="App-header">
         <h1 className="App-title">Gallery of My Life</h1>
       </header>
-      <GalleryList photoList={photoList} handleClick={handleClick} />
+      <GalleryList
+        photoList={photoList}
+        handleClick={handleClick}
+        handleLike={handleLike}
+      />
       {/* <img src="/images/frida-first.jpg"></img>; */}
     </div>
   );

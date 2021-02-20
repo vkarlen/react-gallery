@@ -23,7 +23,7 @@ h3 {
   padding: 10px 50px;
 }
 
-.liked {
+.likeContainer {
   position: absolute;
   bottom: 10px;
   right: 10px;

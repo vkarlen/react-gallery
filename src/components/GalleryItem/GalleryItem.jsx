@@ -1,14 +1,14 @@
 import './GalleryItem.css';
 
-function GalleryItem({ photo, handleClick }) {
+function GalleryItem({ photo, handleClick, handleLike }) {
   return (
-    <div
-      className="imgBlock"
-      onClick={() => {
-        handleClick(photo.id);
-      }}
-    >
-      <img src={photo.path} />
+    <div className="imgBlock">
+      <img
+        src={photo.path}
+        onClick={() => {
+          handleClick(photo.id);
+        }}
+      />
       {photo.isClicked ? (
         <div className="desc">
           <h3>{photo.title}</h3>
@@ -17,7 +17,15 @@ function GalleryItem({ photo, handleClick }) {
       ) : (
         <div></div>
       )}
-      <button className="liked">like</button>
+      <div className="likeContainer">
+        <button
+          onClick={() => {
+            handleLike(photo.id);
+          }}
+        >
+          likes: {photo.likes}
+        </button>
+      </div>
     </div>
   );
 }
