@@ -5,8 +5,8 @@
 - [x] GET function to retrieve data
 - [x] Create Gallery Component
   - [x] loops through gallery list
-- [] Create Gallery Item Component
-  - [] posts each image to the page
+- [x] Create Gallery Item Component
+  - [x] posts each image to the page
   - [] adds a like button
 - [] Clicking like should show the number of likes on the picture
 - [] Clicking an image should bring up the description.
