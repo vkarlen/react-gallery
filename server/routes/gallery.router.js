@@ -29,11 +29,13 @@ router.put('/toggle/:id', (req, res) => {
   for (const photo of galleryItems) {
     if (photo.id === photoID) {
       //console.log(photo);
-      photo.isClicked = !photo.isClicked ? true : false;
-      res.sendStatus(200);
+      photo.isClicked = true;
+      //!photo.isClicked ? true : false;
+    } else {
+      photo.isClicked = false;
     }
   }
-  res.sendStatus(400);
+  res.sendStatus(200);
 });
 
 module.exports = router;
