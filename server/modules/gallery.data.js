@@ -54,7 +54,7 @@ const galleryItems = [
   },
   {
     id: 8,
-    title: 'Mulder on Drugs',
+    title: 'Hi Buddy',
     path: '/images/mulder-high.jpg',
     description:
       'Post surgery Mulder, enjoying the pain meds and a newly cancer free life.',
