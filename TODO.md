@@ -7,9 +7,9 @@
   - [x] loops through gallery list
 - [x] Create Gallery Item Component
   - [x] posts each image to the page
-  - [] adds a like button
+  - [x] adds a like button
 - [] Clicking like should show the number of likes on the picture
-- [] Clicking an image should bring up the description.
+- [x] Clicking an image should bring up the description.
 
 # Personal Stretch Goal
 
