@@ -9,11 +9,15 @@ function GalleryItem({ photo, handleClick }) {
       }}
     >
       <img src={photo.path} />
-      <div>
-        <h3>{photo.title}</h3>
-        <div>{photo.description}</div>
-        <button>like</button>
-      </div>
+      {photo.isClicked ? (
+        <div className="desc">
+          <h3>{photo.title}</h3>
+          <div>{photo.description}</div>
+        </div>
+      ) : (
+        <div></div>
+      )}
+      <button className="liked">like</button>
     </div>
   );
 }
