@@ -10,7 +10,7 @@ h3 {
 .imgBlock {
   position: relative;
   margin: 5px;
-  max-width: 400px;
+  max-width: 350px;
   height: auto;
 }
 
@@ -21,11 +21,17 @@ h3 {
   right: 0%;
   background-color: #ffffffb2;
   padding: 10px 50px;
+  /* color: #c22a2a; */
 }
 
-.likeContainer {
+.likeBtn {
   position: absolute;
-  bottom: 10px;
+  top: 10px;
   right: 10px;
   z-index: 1;
+  font-size: 15px;
+  height: 2em;
+  border: none;
+  border-radius: 0.5em;
+  background-color: white;
 }

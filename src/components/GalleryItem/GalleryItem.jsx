@@ -1,4 +1,5 @@
 import './GalleryItem.css';
+import { FaHeart } from 'react-icons/fa';
 
 function GalleryItem({ photo, handleClick, handleLike }) {
   return (
@@ -17,15 +18,14 @@ function GalleryItem({ photo, handleClick, handleLike }) {
       ) : (
         <div></div>
       )}
-      <div className="likeContainer">
-        <button
-          onClick={() => {
-            handleLike(photo.id);
-          }}
-        >
-          likes: {photo.likes}
-        </button>
-      </div>
+      <button
+        onClick={() => {
+          handleLike(photo.id);
+        }}
+        className="likeBtn"
+      >
+        <FaHeart color="#c22a2a" /> {photo.likes}
+      </button>
     </div>
   );
 }

@@ -8,13 +8,13 @@
 - [x] Create Gallery Item Component
   - [x] posts each image to the page
   - [x] adds a like button
-- [] Clicking like should show the number of likes on the picture
+- [x] Clicking like should show the number of likes on the picture
 - [x] Clicking an image should bring up the description.
 
 # Personal Stretch Goal
 
 - [] Figure out photo grids and fight CSS
-- [] pull in fontawesome to make like button a heart
+- [x] pull in fontawesome to make like button a heart (jk react-icons is better)
 
 # Do Later
 
