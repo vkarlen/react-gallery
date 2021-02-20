@@ -40,7 +40,15 @@ function App() {
       .catch((err) => {
         console.log('Error in likes');
       });
-  }
+  } // end handleLike
+
+  function handleClick(photoID) {
+    if (photoID === idClicked) {
+      setIDClicked(-1);
+    } else {
+      setIDClicked(photoID);
+    }
+  } // end handleClick
 
   return (
     <div className="App">
@@ -49,10 +57,9 @@ function App() {
       </header>
       <GalleryList
         photoList={photoList}
-        setIDClicked={setIDClicked}
+        handleClick={handleClick}
         handleLike={handleLike}
         idClicked={idClicked}
-        // icon={FaHeart}
       />
       {/* <img src="/images/frida-first.jpg"></img>; */}
     </div>

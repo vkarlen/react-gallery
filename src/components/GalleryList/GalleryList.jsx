@@ -1,7 +1,7 @@
 import './GalleryList.css';
 import GalleryItem from '../GalleryItem/GalleryItem';
 
-function GalleryList({ photoList, setIDClicked, handleLike, idClicked }) {
+function GalleryList({ photoList, handleClick, handleLike, idClicked }) {
   //console.log('in gallery', photoList);
 
   return (
@@ -11,7 +11,7 @@ function GalleryList({ photoList, setIDClicked, handleLike, idClicked }) {
           <GalleryItem
             key={index}
             photo={photo}
-            setIDClicked={setIDClicked}
+            handleClick={handleClick}
             handleLike={handleLike}
             idClicked={idClicked}
           />
