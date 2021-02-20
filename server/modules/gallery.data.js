@@ -1,25 +1,25 @@
 const galleryItems = [
   {
     id: 1,
-    path: 'images/frida-now.jpg',
+    path: '/images/frida-now.jpg',
     description: 'My dogs Frida & Ender.',
     likes: 0,
   },
   {
-    id: 3,
-    path: 'images/frida-first.jpg',
+    id: 2,
+    path: '/images/frida-first.jpg',
     description: 'The first time Frida and Ender met.',
     likes: 0,
   },
   {
-    id: 4,
-    path: 'images/ender-hiking.jpg',
+    id: 3,
+    path: '/images/ender-hiking.jpg',
     description: 'Hiking with Ender last summer near Tettegouche.',
     likes: 0,
   },
   {
-    id: 6,
-    path: 'images/end-first.jpg',
+    id: 4,
+    path: '/images/ender-first.jpg',
     description: 'The first day Ender came home.',
     likes: 0,
   },
