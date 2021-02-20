@@ -14,6 +14,7 @@
 # Personal Stretch Goal
 
 - [] Figure out photo grids and fight CSS
+- [] pull in fontawesome to make like button a heart
 
 # Do Later
 
