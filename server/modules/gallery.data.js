@@ -6,12 +6,6 @@ const galleryItems = [
     likes: 0,
   },
   {
-    id: 2,
-    path: 'images/frida-baby.jpg',
-    description: 'Frida as a baby.',
-    likes: 0,
-  },
-  {
     id: 3,
     path: 'images/frida-first.jpg',
     description: 'The first time Frida and Ender met.',
@@ -20,7 +14,7 @@ const galleryItems = [
   {
     id: 4,
     path: 'images/ender-hiking.jpg',
-    description: 'Hiking with Ender last summer in Tettegouche.',
+    description: 'Hiking with Ender last summer near Tettegouche.',
     likes: 0,
   },
   {
