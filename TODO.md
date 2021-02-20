@@ -2,9 +2,9 @@
 
 - [x] Add images to data file
 - [x] Change data file to include id, title, description, and path for all images
-- [] GET function to retrieve data
-- [] Create Gallery Component
-  - [] loops through gallery list
+- [x] GET function to retrieve data
+- [x] Create Gallery Component
+  - [x] loops through gallery list
 - [] Create Gallery Item Component
   - [] posts each image to the page
   - [] adds a like button
