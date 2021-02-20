@@ -15,12 +15,12 @@ function App() {
   }, []);
 
   const getPhotos = () => {
-    console.log('in get');
+    //console.log('in get');
 
     axios
       .get('/gallery')
       .then((res) => {
-        console.log('back', res.data);
+        //console.log('back', res.data);
         setPhotoList(res.data);
       })
       .catch((err) => {
@@ -29,12 +29,12 @@ function App() {
   }; // end getPhotos
 
   function handleLike(photoID) {
-    console.log('in like', photoID);
+    //console.log('in like', photoID);
 
     axios
       .put(`/gallery/like/${photoID}`)
       .then((res) => {
-        console.log('back from like');
+        //console.log('back from like');
         getPhotos();
       })
       .catch((err) => {
