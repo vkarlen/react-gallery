@@ -1,13 +1,15 @@
 import './GalleryList.css';
 import GalleryItem from '../GalleryItem/GalleryItem';
 
-function GalleryList({ photoList }) {
+function GalleryList({ photoList, handleClick }) {
   //console.log('in gallery', photoList);
 
   return (
     <div id="imgContainer">
       {photoList.map((photo, index) => {
-        return <GalleryItem key={index} photo={photo} />;
+        return (
+          <GalleryItem key={index} photo={photo} handleClick={handleClick} />
+        );
       })}
     </div>
   );

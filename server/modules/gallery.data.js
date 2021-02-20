@@ -5,6 +5,7 @@ const galleryItems = [
     path: '/images/frida-now.jpg',
     description: 'My dogs Frida & Ender.',
     likes: 0,
+    isClicked: false,
   },
   {
     id: 2,
@@ -13,6 +14,7 @@ const galleryItems = [
     description:
       'The first time Frida and Ender met. Hard to believe she was ever that tiny.',
     likes: 0,
+    isClicked: false,
   },
   {
     id: 3,
@@ -21,6 +23,7 @@ const galleryItems = [
     description:
       'Rest stop on our way up to the North Shore last fall. He was unimpressed with it all.',
     likes: 0,
+    isClicked: false,
   },
   {
     id: 4,
@@ -28,14 +31,16 @@ const galleryItems = [
     path: '/images/ender-first.jpg',
     description: 'The first day Ender came home.',
     likes: 0,
+    isClicked: false,
   },
   {
     id: 5,
     title: 'ACNH',
     path: '/images/acnh.jpg',
     description:
-      'Halloween party with the friends who helped me make it though the pandemic.',
+      'Covid friendly Halloween party with friends from across the US.',
     likes: 0,
+    isClicked: false,
   },
   {
     id: 6,
@@ -44,6 +49,7 @@ const galleryItems = [
     description:
       'The reason I foster... Barney the day I picked him up from transport.',
     likes: 0,
+    isClicked: false,
   },
   {
     id: 7,
@@ -51,6 +57,7 @@ const galleryItems = [
     path: '/images/hiking.jpg',
     description: 'View over Tettegouche State Park last fall.',
     likes: 0,
+    isClicked: false,
   },
   {
     id: 8,
@@ -59,6 +66,7 @@ const galleryItems = [
     description:
       'Post surgery Mulder, enjoying the pain meds and a newly cancer free life.',
     likes: 0,
+    isClicked: false,
   },
 ];
 
