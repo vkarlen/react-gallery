@@ -1,4 +1,5 @@
 import './GalleryList.css';
+import GalleryItem from '../GalleryItem/GalleryItem';
 
 function GalleryList({ photoList }) {
   //console.log('in gallery', photoList);
@@ -6,11 +7,7 @@ function GalleryList({ photoList }) {
   return (
     <div id="imgContainer">
       {photoList.map((photo, index) => {
-        return (
-          <div class="imgBlock" key={photo.id}>
-            <img src={photo.path} />
-          </div>
-        );
+        return <GalleryItem key={index} photo={photo} />;
       })}
     </div>
   );
