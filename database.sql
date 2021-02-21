@@ -22,7 +22,7 @@ VALUES
   ('Scully', '/images/scully.jpg', 'The pretty boy of the house.'),
   ('Phyllis Vance of Vance Refrigeration', '/images/phyllis.jpg', 'My office pet when I worked at Chuck & Dons.'),
   ('Zebra Schnoz', '/images/zebra.jpg', 'One of my collection of animal skulls. This one came from a tribe in Africa that uses the rest of the animal for food.'),
-  ('Art', '/images/art.png', 'Art piece I did for a friend.'),
+  ('Art', '/images/art.png', 'A piece I did for a friend.'),
   ('Rescued', '/images/foster.jpg', 'The reason I foster... Barnes the day I picked him up from transport.'),
   ('Barnes', '/images/barn-adopt.jpg', 'Barnes waiting for his adoption papers to be signed! Hes now living his best life on an apple orchard up north.'),
   ('Hi Buddy', '/images/mulder-high.jpg', 'Post surgery Mulder, enjoying the pain meds and a newly cancer free life.'),
