@@ -21,12 +21,6 @@ router.put('/like/:id', (req, res) => {
       console.log('err in PUT', err);
       res.sendStatus(500);
     });
-  // for (const galleryItem of galleryItems) {
-  //   if (galleryItem.id == galleryId) {
-  //     galleryItem.likes += 1;
-  //   }
-  // }
-  // res.sendStatus(200);
 }); // END PUT Route
 
 // GET Route

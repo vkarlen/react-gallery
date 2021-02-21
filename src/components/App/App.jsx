@@ -1,6 +1,5 @@
 import React from 'react';
 import { useEffect, useState } from 'react';
-// import { FaHeart } from 'react-icons/fa';
 import axios from 'axios';
 import './App.css';
 
@@ -57,7 +56,6 @@ function App() {
         handleLike={handleLike}
         idClicked={idClicked}
       />
-      {/* <img src="/images/frida-first.jpg"></img>; */}
     </div>
   );
 }
