@@ -22,7 +22,7 @@
 
 # Stretch Goals
 
-- [] Move data to database
+- [x] Move data to database
 - [] Add a form that allows a user to put in a new image
 - [] Delete gallery item
 - [] Add styling with Material UI
