@@ -18,7 +18,7 @@
 
 # Do Later
 
-- [] Styling
+- [x] Styling
 
 # Stretch Goals
 

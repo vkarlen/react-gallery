@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  font-family: 'Lato', sans-serif;
 }
 
 .App-header {
@@ -10,5 +11,13 @@
 }
 
 .App-title {
-  font-size: 1.5em;
+  font-family: 'Dancing Script', cursive;
+  font-size: 4em;
+  margin: 10px;
+}
+
+h3 {
+  font-family: 'Dancing Script', cursive;
+  font-weight: 700;
+  font-size: 2em;
 }
